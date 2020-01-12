@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://brasim.github.io/acorns",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
