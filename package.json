@@ -1,5 +1,5 @@
 {
-  "name": "Gulp-Start",
+  "name": "Acorns Pre School",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,5 +22,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
