@@ -26,5 +26,12 @@
   },
   "dependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRASIM81/acorns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BRASIM81/acorns/issues"
   }
 }
