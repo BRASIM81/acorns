@@ -1,2 +1,23 @@
 .navbar
     //background-color: rgba(darken(green,15%), 0.8)!important
+.home-nav
+    position: fixed
+    top: 65vh
+    left: 0
+    background: #903487
+    border-bottom-right-radius: 10px
+    border-top-right-radius: 10px
+    box-shadow: 0 2px 10px #000000
+    z-index: 999
+    opacity: 1
+    transform: translate(-100% 0)
+    transition: all ease-in 500ms
+    a
+        color: #ffffff
+        display: block
+        padding: 15px
+        &:hover
+            animation-name: wobble
+            animation-duration: 1s
+        .fa-arrow-up
+            text-shadow: 0 2px 8px #000

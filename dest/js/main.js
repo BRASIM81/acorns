@@ -1,1 +1,1 @@
-(new WOW).init(),$(document).ready(function(){var e=(new Date).getFullYear();document.getElementById("copy").innerHTML="ACORNS "+e});
+(new WOW).init(),$(document).ready(function(){var e=(new Date).getFullYear();document.getElementById("copy").innerHTML="ACORNS "+e,$(".home-nav").on("click",function(e){e.preventDefault(),$("html, body").animate({scrollTop:0},800),console.log("clicked")})});
