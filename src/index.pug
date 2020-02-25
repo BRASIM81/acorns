@@ -7,9 +7,10 @@ html(lang="en")
         #top
         .home-nav
             a(href="#top")
-                span.fas.fa-arrow-up.fa-2x
+                span.fas.fa-arrow-up
         include includes/nav
         include includes/carousel
+        hr
         .container#about
             .row
                 h1.mt-3.wow.fadeIn.d-block Welcome to Alderton Acorns
@@ -28,10 +29,12 @@ html(lang="en")
                 .col-md-6.wow.slideInRight(data-wow-offset="100")
                     p The Pre-School meets at Alderton Village Hall, which is bright, spacious and centrally heated.  There are special toilet facilities, a kitchen for cookery and preparation of snacks for the children and two outside play areas. We also have our own large range of play equipment which is constantly updated and added to.
                     p Your play leader's hold Postgraduate Certificate in Education (PGCE) and Alderton Acorns is registered and approved by Social Services. We are also a member of Gloucestershire Playgroup and Toddler Association (PATA).
+        hr
+        .container
             .row#times
                 h1.mt-3.wow.fadeIn(data-wow-offset="100") Time Table
             .row
-                h3.pl-3.pb-1.wow.fadeInDown(data-wow-delay="500ms" data-wow-offset="100") Our Pre-school is open to children from 2.5 - 5 yrs:
+                h3.pl-3.pb-1.wow.fadeInDown(data-wow-delay="200ms" data-wow-offset="100") Our Pre-school is open to children from 2.5 - 5 yrs:
             .row
                 ul.times
                     li
@@ -40,5 +43,7 @@ html(lang="en")
                         p.wow.fadeIn(data-wow-offset="100" data-wow-delay="600ms") Thursday - Forest School - 9:00 - 11:00.
                     li
                         p.wow.fadeIn(data-wow-offset="100" data-wow-delay="800ms") Friday - Toddler group - 10am -12pm.
+        hr
         .img-banner
+        hr
         include includes/footer

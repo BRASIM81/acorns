@@ -11,13 +11,17 @@
     z-index: 999
     opacity: 0
     transform: translate(-100% 0)
-    transition: all ease-in 500ms
+    transition: ease-in-out 500ms
     a
         color: #ffffff
         display: block
         padding: 15px
+        transition: ease-in-out 400ms
         &:hover
             animation-name: wobble
             animation-duration: 1s
+            @media (min-width: 975px)
+                padding-left: 25px
         .fa-arrow-up
+            font-size: 2rem
             text-shadow: 0 2px 8px #000
