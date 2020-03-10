@@ -8,6 +8,8 @@
     @media ( min-width: 768px )
         height: 300px
 .times
+    h3
+        overflow: hidden
     li
         list-style: none
 hr
@@ -32,3 +34,10 @@ hr
         background: linear-gradient(-8deg, lighten(#3e6d81, 25%) 0%, #3e6d81 100%);
     @media ( max-width: 768px )
         margin-bottom: 30px
+p
+    a
+        color: darken(#8facce, 15%)
+        transition: all ease 300ms
+        &:hover
+            text-decoration: none
+            color: darken(#8facce, 40%)
