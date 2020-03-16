@@ -5,6 +5,14 @@ $(document).ready(function(){
    var n = d.getFullYear();
    document.getElementById("copy").innerHTML = "ACORNS " + n;
 
+   $('#cookie').on('click', function(e){
+      e.preventDefault();
+      $('#cookies').css({
+         'opacity':'0',
+         'transform':'translate(0,100%)'
+      });
+   });
+
    $('.home-nav').on('click', function(e){
       e.preventDefault();
       $('html, body').animate({
