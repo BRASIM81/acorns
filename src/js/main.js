@@ -13,7 +13,7 @@ window.onload = function(){
 $(document).ready(function(){
 
    $(".cookie").on('click', function(e){
-      document.cookie = "cookieacpt=yes;max-age=" + (60 * 60 * 24 * 30) ;
+      document.cookie = "cookieacpt=yes;max-age=" + (60 * 60 * 24 * 30) + ";";
    });
 
    var d = new Date();
