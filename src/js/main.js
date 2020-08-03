@@ -12,7 +12,8 @@ window.onload = function(){
 }
 $(document).ready(function(){
 
-   $(".cookie").on('click', function(e){
+   $("#cookie").on('click', function(e){
+      e.preventDefault();
       document.cookie = "cookieacpt=yes;max-age=" + (60 * 60 * 24 * 30) + ";";
    });
 
