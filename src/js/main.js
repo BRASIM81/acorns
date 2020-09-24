@@ -1,5 +1,21 @@
 new WOW().init();
+window.onload = function(){
+   if(document.cookie.length != 0){
+      var cookieVal = document.cookie.split("=");
+      if(cookieVal[1] == 'yes'){
+         $('#cookies').css({
+            'opacity':'0',
+            'transform':'translate(0,100%)'
+         });
+      }
+   }
+}
 $(document).ready(function(){
+
+   $("#cookie").on('click', function(e){
+      e.preventDefault();
+      document.cookie = "cookieacpt=yes;max-age=" + (60 * 60 * 24 * 30) + ";";
+   });
 
    var d = new Date();
    var n = d.getFullYear();
