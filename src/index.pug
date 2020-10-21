@@ -10,65 +10,12 @@ html(lang="en")
         include includes/nav
         include includes/carousel
         hr
-        .container#about
-            .row
-                h1.mt-3.wow.fadeIn.d-block Welcome to Alderton Acorns
-            .row
-                h3.text-muted.pb-1.pl-4.wow.fadeIn.d-block Pre-School and Toddlers
-            .row
-                .col-lg-6.wow.slideInLeft(data-wow-offset="200")
-                    p Alderton Acorns Pre-School Group is open to children from 2 years 6 months up to 5 years. Children join us to have fun and to learn, through play, the individual skills needed to enter school confidently and enthusiastically. Sessions run from 9am to 1pm Monday to Thursday during term time.
-                    p ​Children usually start with two sessions per week and build up to more when they are ready.  For children in their pre-school year we include special study groups where they can concentrate on more structured play and pre-reading/writing skills.
-                .col-lg-6.d-flex.align-items-center.wow.slideInRight(data-wow-offset="200")
-                    img(src="img/1.jpg", alt="").img-fluid.w-100.d-shadow.d-none.d-lg-block.mb-3
-        .container
-            .row
-                .col-md-6.d-flex.align-items-center.wow.slideInLeft.trigger(data-wow-offset="100")
-                    img(src="img/2.jpg", alt="").img-fluid.w-100.d-shadow.mb-3
-                .col-md-6.wow.slideInRight(data-wow-offset="100")
-                    p The Pre-School meets at Alderton Village Hall, which is bright, spacious and centrally heated.  There are special toilet facilities, a kitchen for cookery and preparation of snacks for the children and two outside play areas. We also have our own large range of play equipment which is constantly updated and added to.
-                    p Your play leader's hold #[a(href="https://getintoteaching.education.gov.uk/explore-my-options/teacher-training-routes/pgce") Postgraduate Certificate in Education (PGCE)] and Alderton Acorns is registered and approved by Social Services. We are also a member of #[a(href="https://www.pataglos.org.uk") Gloucestershire Playgroup and Toddler Association (PATA)].
+        include includes/about
         hr
-        .container
-            .row
-                .col-md-6#times
-                    .row
-                        h1.mt-3.wow.fadeIn(data-wow-offset="100") Time Table
-                    .row
-                        h3.pl-3.pb-1.wow.fadeInDown(data-wow-delay="200ms" data-wow-offset="100") Our Pre-school is open to children from 2.5 - 5 yrs:
-                    .row
-                        ul.times
-                            li
-                                p.wow.fadeIn(data-wow-offset="100" data-wow-delay="400ms") Monday to Wednesday - Pre-School - 9am - 3pm.
-                            li
-                                p.wow.fadeIn(data-wow-offset="100" data-wow-delay="600ms") Thursday - Forest School - 9:00 - 11:00.
-                            li
-                                p.wow.fadeIn(data-wow-offset="100" data-wow-delay="800ms") Friday - Toddler group - 10am -12pm.
-                .col-md-6#contact
-                    h1.mt-3.wow.fadeIn(data-wow-offset="100") Contact
-                    h2.pl-3.wow.fadeInDown(data-wow-delay="200" data-wow-offset="100") Sarah Westgate
-                    //span.pl-2.fas.fa-phone.wow.fadeIn(data-wow-offset="100" data-wow-delay="400ms")
-                    //p.d-inline.ml-3.wow.fadeIn(data-wow-offset="100" data-wow-delay="400ms")  
-                        a(href="tel:07842161159" target="_self") 07842 161159
-                    a.btn.btn-success.m-3.d-block.text-white.fas.fa-phone.wow.fadeIn(data-wow-offset="100" data-wow-delay="400ms" href="tel:07842161159" target="_self")  07842 161159
-                    //span.pl-2.fas.fa-at.wow.fadeIn(data-wow-offset="100" data-wow-delay="600ms")
-                    //a.ml-3.wow.fadeIn(data-wow-offset="100" data-wow-delay="600ms" href="mailto:aldertonacornspreschool@hotmail.co.uk" target="_self") aldertonacornspreschool@hotmail.co.uk
-                    a.d-block.btn.btn-success.text-white.m-3.fas.fa-at.wow.fadeIn(data-wow-offset="100" data-wow-delay="600ms" href="mailto:aldertonacornspreschool@hotmail.co.uk" target="_self")  Email
-
+        include includes/contact
         hr
         #googleMap.wow.fadeIn(data-wow-offset="100")
         hr
-        .img-banner.py-3
-            .container
-                .row.d-flex.p-4.justify-content-around
-                    .col-md-3.p-3.text-justify.wow.fadeInLeft.d-shadow(data-wow-delay="200ms" data-wow-offset="100")
-                        p
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta amet quidem itaque expedita iure? Deserunt laborum delectus saepe perferendis illum amet blanditiis, eos facilis aliquam fugiat et sed minima dolorum?
-                    .col-md-3.p-3.text-justify.wow.fadeIn.d-shadow(data-wow-delay="30ms" data-wow-offset="100")
-                        p
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta amet quidem itaque expedita iure? Deserunt laborum delectus saepe perferendis illum amet blanditiis, eos facilis aliquam fugiat et sed minima dolorum?
-                    .col-md-3.p-3.text-justify.wow.fadeInRight.d-shadow(data-wow-delay="200ms" data-wow-offset="100")
-                        p
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta amet quidem itaque expedita iure? Deserunt laborum delectus saepe perferendis illum amet blanditiis, eos facilis aliquam fugiat et sed minima dolorum?
+        include includes/img_banner
         hr
         include includes/footer
