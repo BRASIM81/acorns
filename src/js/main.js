@@ -18,8 +18,8 @@ $(document).ready(function(){
    });
 
    var d = new Date();
-   var n = d.getFullYear();
-   document.getElementById("copy").innerHTML = "ACORNS " + n;
+   var y = d.getFullYear();
+   document.getElementById("copy").innerHTML = "ACORNS " + y;
 
    $('#cookie').on('click', function(e){
       e.preventDefault();
