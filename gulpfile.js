@@ -1,4 +1,4 @@
-const   gulp = require('gulp'),
+        gulp = require('gulp'),
         autoprefixer = require('gulp-autoprefixer'),
         browsersync = require('browser-sync').create(),
         reload = browsersync.reload,
