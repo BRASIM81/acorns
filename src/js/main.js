@@ -9,7 +9,7 @@ window.onload = function(){
          });
       }
    }
-}
+};
 $(document).ready(function(){
 
    $("#cookie").on('click', function(e){
