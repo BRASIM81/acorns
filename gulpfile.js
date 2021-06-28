@@ -14,7 +14,7 @@
 
 function css(){
     return gulp.src('./src/sass/**/*.sass')
-    .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(sourcemaps.init({loadMaps: false}))
     .pipe(sass({
         outputStyle: 'compressed'
     }).on('error', sass.logError))
