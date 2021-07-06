@@ -23,9 +23,9 @@
   <body id="top">
     <div class="home-nav"><a href="#top"><span class="fas fa-arrow-up"></span></a></div>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container"><a class="navbar-brand wow fadeInDown" href="#">A C O R N S <img src="img/logo.png" alt="Alderton Acorns Pre-School Logo" title="Alderton Acorns Pre-School"/></a>
+      <div class="container"><a class="navbar-brand wow fadeInDown" href="#">A C O R N S<img src="img/logo.png" alt="Alderton Acorns Pre-School Logo" title="Alderton Acorns Pre-School"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar"> 
+        <div class="collapse navbar-collapse justify-content-end" id="navbar">
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -132,6 +132,8 @@
           <div class="col-md-8 py-3">
             <h2 class="text-light ml-3 wow fadeIn">A C O R N S</h2>
             <p class="text-light">A traditional cummunity run Pre-School in a rural village setting.</p>
+            <div id="sharebtn"><a class="d-shadow" href="#" data-toggle="modal" data-target="#share">
+                <button class="btn d-shadow my-3">Share <span class="fa fa-share-alt"></span></button></a></div>
           </div>
           <div class="col-md-4 d-flex justify-content-end align-items-end">
             <p class="text-light far fa-copyright pb-2"></p>
@@ -140,6 +142,20 @@
         </div>
       </div>
     </footer>
+    <div class="modal fade" id="share" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content d-shadow">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" title="close">&times;</button>
+            <h4 class="modal-title">Share<i class="fa fa-share-alt"></i></h4>
+          </div>
+          <div class="modal-body"><a class="d-shadow my-3 btn btn-block" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.acornspreschool.tk" style="background: linear-gradient(8deg, #3b5998 0%, #4899D4 100%); color:#ffffff;">Facebook<i class="fab fa-facebook"></i></a><a class="d-shadow my-3 btn btn-block" target="_blank" href="https://twitter.com/home?status=https://www.acornspreschool.tk" style="background-color:#83ddf2; color:#ffffff;">Twitter<i class="fab fa-twitter"></i></a><a class="d-shadow my-3 btn btn-block" href="mailto:?subject=Please see this website&amp;body=Check out this website https://www.acornspreschool.tk" style="background:linear-gradient(8deg, #EB5F2A 0%, #deac33 100%); color:#ffffff;"> Email<i class="far fa-envelope"></i></a></div>
+          <div class="modal-footer">
+            <button class="btn d-shadow mx-2 my-3" type="button" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="cookies">
       <div class="container">
         <div class="row">
