@@ -16,13 +16,13 @@
 				margin-right: .4em
 .modal.fade
 	.modal-dialog
-		max-width: 50vw
+		max-width: 60vw
 		margin: 2rem auto
 		@media (max-width: 975px)
 			max-width: 80vw
 		transition: all cubic-bezier(.21, -2, .51, 3.4) 300ms
 		.modal-content
-			background: linear-gradient(-145deg, lighten($forthcol, 18%) 50%, darken($forthcol, 18%) 100%)
+			background: linear-gradient(-145deg, lighten($forthcol, 20%) 50%, darken($forthcol, 16%) 100%)
 			border: 0
 			.modal-header
 				border: 0
@@ -35,17 +35,21 @@
 					&:hover
 						transform: scale(1.4)
 				h4
-					letter-spacing: 0.5rem
+					margin: auto
+					letter-spacing: 0.3em
 					margin-bottom: 0px
-					font: 2rem $mainFont
+					font: 3rem $mainFont
 					i
-						float: left
-						padding-right: 5px
-						margin: 5px
+						font-size: 1.5rem
+						position: absolute
+						left: 1.2em
+						top: 1.2em
+						color: #222
 			.modal-body
 				a
 					font-size: 2rem
-					letter-spacing: 0.4rem
+					letter-spacing: 0.2em
+					margin: auto
 					text-shadow: -1px 1px 1px #000
 					transition: all ease 300ms
 					&:hover
