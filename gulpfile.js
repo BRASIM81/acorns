@@ -19,7 +19,7 @@ function css(){
         outputStyle: 'compressed'
     }).on('error', sass.logError))
     .pipe(autoprefixer('last 2 versions'))
-    .pipe(sourcemaps.write('./maps'))
+    //.pipe(sourcemaps.write('./maps'))
     .pipe(lineec())
     .pipe(gulp.dest('./dest/css'));
 }
@@ -56,7 +56,7 @@ function watch() {
         server: {
             baseDir: './dest/'
         },
-        reloadDelay: 1000
+        reloadDelay: 1500
     });
     gulp.watch('./src/sass/**/*.sass', css);
     gulp.watch('./src/js/**/*.js', javascript);
