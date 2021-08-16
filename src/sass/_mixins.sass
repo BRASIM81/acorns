@@ -1,7 +1,7 @@
-@mixin radius($top, $right, $bottom, $left)
+@mixin radius($top: 8px, $right: 8px, $bottom: 8px, $left: 8px)
     border-top-left-radius: $top
     border-top-right-radius: $right
     border-bottom-right-radius: $bottom
     border-bottom-left-radius: $left
-@mixin shadow($ud, $lr, $spr, $dest)
-    box-shadow: $ud $lr $spr $dest #000
+@mixin shadow($ud: 0, $lr: 1em, $spr: 0.35em, $dest: -0.75em, $op: .5)
+    box-shadow: $ud $lr $spr $dest rgba(black, $op)
