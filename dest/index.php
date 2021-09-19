@@ -66,7 +66,8 @@
           <div class="col-md-6 d-flex align-items-center wow slideInLeft trigger" data-wow-offset="100"><img class="img-fluid w-100 d-shadow mb-3" src="img/2.jpg" alt=""/></div>
           <div class="col-md-6 wow slideInRight" data-wow-offset="100">
             <p>The Pre-School meets at Alderton Village Hall, which is bright, spacious and centrally heated.  There are special toilet facilities, a kitchen for cookery and preparation of snacks for the children and two outside play areas. We also have our own large range of play equipment which is constantly updated and added to.</p>
-            <p>Your play leader's hold <a href="https://getintoteaching.education.gov.uk/explore-my-options/teacher-training-routes/pgce">Postgraduate Certificate in Education (PGCE)</a> and Alderton Acorns is registered and approved by Social Services. We are also a member of <a href="https://www.pataglos.org.uk">Gloucestershire Playgroup and Toddler Association (PATA)</a>. <php echo 'hello' ></p>
+            <?php echo "<h2>hello</h2>"; ?>
+            <p>Your play leader's hold <a href="https://getintoteaching.education.gov.uk/explore-my-options/teacher-training-routes/pgce">Postgraduate Certificate in Education (PGCE)</a> and Alderton Acorns is registered and approved by Social Services. We are also a member of <a href="https://www.pataglos.org.uk">Gloucestershire Playgroup and Toddler Association (PATA).</a></p>
           </div>
         </div>
       </div>
@@ -151,7 +152,7 @@
           </div>
           <div class="modal-body"><a class="d-shadow my-3 btn btn-block" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.acornspreschool.tk" style="background: linear-gradient(8deg, #3b5998 0%, #4899D4 100%); color:#ffffff;">Facebook<i class="fab fa-facebook"></i></a><a class="d-shadow my-3 btn btn-block" target="_blank" href="https://twitter.com/home?status=https://www.acornspreschool.tk" style="background-color:#83ddf2; color:#ffffff;">Twitter<i class="fab fa-twitter"></i></a><a class="d-shadow my-3 btn btn-block" href="mailto:?subject=Please see this website&amp;body=Check out this website https://www.acornspreschool.tk" style="background:linear-gradient(8deg, #EB5F2A 0%, #deac33 100%); color:#ffffff;"> Email<i class="far fa-envelope"></i></a></div>
           <div class="modal-footer">
-            <button class="btn d-shadow mx-2 my-3" type="button" data-dismiss="modal">Close </button>
+            <button class="btn d-shadow mx-2 my-3" type="button" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
