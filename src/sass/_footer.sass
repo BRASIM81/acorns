@@ -1,8 +1,15 @@
 footer
-    padding-bottom: 0rem
-    h3
-        font-size: 1.6rem
-    @media(min-width: 768px)
-        h3
-            padding-bottom: -28px
-            font-size: 2rem
+	padding-bottom: 0rem
+	h3
+		font-size: 1.6rem
+	@media(min-width: 768px)
+		h3
+			padding-bottom: -28px
+			font-size: 2rem
+	#social
+		a 
+			i 
+				font-size: 2rem
+				color: darken($secondcol, 12%)
+				&:hover
+					color: complement(darken($secondcol, 12%))
