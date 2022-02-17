@@ -1,16 +1,26 @@
 footer.bg-dark
 	.container
 		.row
-			.col-md-8.py-3
+			.col-12.py-3
 				h2.text-light.ml-3.wow.fadeIn A C O R N S
 				p.text-light A traditional cummunity run Pre-School in a rural village setting.
+			.col-4.col-md-4
 				#sharebtn
 					a.d-shadow(href="#" data-toggle="modal" data-target="#share")
 						button.btn.d-shadow.my-3 Share 
 							span.fa.fa-share-alt
-			.col-md-4.d-flex.justify-content-end.align-items-end
+			.col-8.col-md-4#social.d-flex.justify-content-around.align-items-center
+				a(href="")
+					i.fab.fa-facebook
+				a(href="")
+					i.fab.fa-instagram
+				a(href="")
+					i.fab.fa-youtube
+				a(href="")
+					i.fab.fa-twitter
+			.col.col-md-4.d-flex.justify-content-end.align-items-end
 				p.text-light.far.fa-copyright.pb-2
-				p.text-light.ml-2#copy
+				p.text-light.ml-2#copy 
 include ../includes/share
 #cookies
 	.container

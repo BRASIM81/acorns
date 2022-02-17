@@ -49,10 +49,12 @@
     <hr/>
     <div class="container" id="about">
       <div class="row">
-        <div class="col-12">
-          <h1 class="mt-3 wow fadeIn d-block">Welcome to Alderton Acorns</h1>
-          <h3 class="text-muted pb-1 pl-4 wow fadeIn d-block">Pre-School and Toddlers</h3>
-        </div>
+        <h1 class="mt-3 wow fadeIn d-block">Welcome to Alderton Acorns</h1>
+      </div>
+      <div class="row">
+        <h3 class="text-muted pb-1 pl-4 wow fadeIn d-block">Pre-School and Toddlers</h3>
+      </div>
+      <div class="row">
         <div class="col-lg-6 wow slideInLeft" data-wow-offset="200">
           <p>Alderton Acorns Pre-School Group is open to children from 2 years 6 months up to 5 years. Children join us to have fun and to learn, through play, the individual skills needed to enter school confidently and enthusiastically. Sessions run from 9am to 1pm Monday to Thursday during term time.</p>
           <p>​Children usually start with two sessions per week and build up to more when they are ready. For children in their pre-school year we include special study groups where they can concentrate on more structured play and pre-reading/writing skills.</p>
@@ -64,7 +66,8 @@
           <div class="col-md-6 d-flex align-items-center wow slideInLeft trigger" data-wow-offset="100"><img class="img-fluid w-100 d-shadow mb-3" src="img/2.jpg" alt=""/></div>
           <div class="col-md-6 wow slideInRight" data-wow-offset="100">
             <p>The Pre-School meets at Alderton Village Hall, which is bright, spacious and centrally heated.  There are special toilet facilities, a kitchen for cookery and preparation of snacks for the children and two outside play areas. We also have our own large range of play equipment which is constantly updated and added to.</p>
-            <p>Your play leader's hold <a href="https://getintoteaching.education.gov.uk/explore-my-options/teacher-training-routes/pgce">Postgraduate Certificate in Education (PGCE)</a> and Alderton Acorns is registered and approved by Social Services. We are also a member of <a href="https://www.pataglos.org.uk">Gloucestershire Playgroup and Toddler Association (PATA)</a>.</p>
+            <?php echo "<h2>hello</h2>"; ?>
+            <p>Your play leader's hold <a href="https://getintoteaching.education.gov.uk/explore-my-options/teacher-training-routes/pgce">Postgraduate Certificate in Education (PGCE)</a> and Alderton Acorns is registered and approved by Social Services. We are also a member of <a href="https://www.pataglos.org.uk">Gloucestershire Playgroup and Toddler Association (PATA).</a></p>
           </div>
         </div>
       </div>
@@ -73,19 +76,25 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6" id="times">
-          <h1 class="mt-3 wow fadeIn" data-wow-offset="100">Time Table</h1>
-          <h3 class="pl-3 pb-3 wow fadeInDown" data-wow-delay="200ms" data-wow-offset="100">Our Pre-school is open to children from 2.5 - 5 yrs:</h3>
-          <ul class="times">
-            <li>
-              <p class="wow fadeIn" data-wow-offset="100" data-wow-delay="400ms">Monday to Wednesday - Pre-School - 9am - 3pm.</p>
-            </li>
-            <li>
-              <p class="wow fadeIn" data-wow-offset="100" data-wow-delay="600ms">Thursday - Forest School - 9:00am - 11:00am.</p>
-            </li>
-            <li>
-              <p class="wow fadeIn" data-wow-offset="100" data-wow-delay="800ms">Friday - Toddler group - 10am -12pm.</p>
-            </li>
-          </ul>
+          <div class="row">
+            <h1 class="mt-3 wow fadeIn" data-wow-offset="100">Time Table</h1>
+          </div>
+          <div class="row">
+            <h3 class="pl-3 pb-1 wow fadeInDown" data-wow-delay="200ms" data-wow-offset="100">Our Pre-school is open to children from 2.5 - 5 yrs:</h3>
+          </div>
+          <div class="row">
+            <ul class="times">
+              <li>
+                <p class="wow fadeIn" data-wow-offset="100" data-wow-delay="400ms">Monday to Wednesday - Pre-School - 9am - 3pm.</p>
+              </li>
+              <li>
+                <p class="wow fadeIn" data-wow-offset="100" data-wow-delay="600ms">Thursday - Forest School - 9:00am - 11:00am.</p>
+              </li>
+              <li>
+                <p class="wow fadeIn" data-wow-offset="100" data-wow-delay="800ms">Friday - Toddler group - 10am -12pm.</p>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-6" id="contact">
           <h1 class="mt-3 wow fadeIn" data-wow-offset="100">Contact</h1>
@@ -99,17 +108,17 @@
     <div class="img-banner py-3">
       <div class="container">
         <div class="row d-flex p-4 justify-content-around">
-          <div class="col-5 col-md-5 col-lg-3 text-center bannerBg wow fadeInLeft d-shadow m-2" data-wow-delay="200ms" data-wow-offset="100">
+          <div class="col-md-12 col-lg-3 p-3 text-center bannerBg wow fadeInLeft d-shadow" data-wow-delay="200ms" data-wow-offset="100">
             <h1>LEARN</h1>
             <p>with us at </p>
             <h1>Pre-School</h1>
           </div>
-          <div class="col-11 col-md-11 order-1 order-lg-0 col-lg-3 text-center bannerBg wow fadeIn d-shadow m-2" data-wow-delay="30ms" data-wow-offset="100">
+          <div class="col-md-5 col-lg-3 p-3 text-center bannerBg wow fadeInUp d-shadow" data-wow-delay="30ms" data-wow-offset="100">
             <h1>EXPLORE</h1>
             <p>with us at</p>
             <h1>Forest School</h1>
           </div>
-          <div class="col-5 col-md-5 col-lg-3 text-center bannerBg wow fadeInRight d-shadow m-2" data-wow-delay="200ms" data-wow-offset="100">
+          <div class="col-md-5 col-lg-3 p-3 text-center bannerBg wow fadeInRight d-shadow" data-wow-delay="200ms" data-wow-offset="100">
             <h1>Chat</h1>
             <p>with us at</p>
             <h1>Toddler Group</h1>
@@ -121,18 +130,15 @@
     <footer class="bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-12 py-3">
+          <div class="col-md-8 py-3">
             <h2 class="text-light ml-3 wow fadeIn">A C O R N S</h2>
             <p class="text-light">A traditional cummunity run Pre-School in a rural village setting.</p>
-          </div>
-          <div class="col-4 col-md-4">
             <div id="sharebtn"><a class="d-shadow" href="#" data-toggle="modal" data-target="#share">
                 <button class="btn d-shadow my-3">Share <span class="fa fa-share-alt"></span></button></a></div>
           </div>
-          <div class="col-8 col-md-4 d-flex justify-content-around align-items-center" id="social"><a href=""><i class="fab fa-facebook"></i></a><a href=""><i class="fab fa-instagram"></i></a><a href=""><i class="fab fa-youtube"></i></a><a href=""><i class="fab fa-twitter"></i></a></div>
-          <div class="col col-md-4 d-flex justify-content-end align-items-end">
+          <div class="col-md-4 d-flex justify-content-end align-items-end">
             <p class="text-light far fa-copyright pb-2"></p>
-            <p class="text-light ml-2" id="copy"> </p>
+            <p class="text-light ml-2" id="copy"></p>
           </div>
         </div>
       </div>
@@ -146,7 +152,7 @@
           </div>
           <div class="modal-body"><a class="d-shadow my-3 btn btn-block" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.acornspreschool.tk" style="background: linear-gradient(8deg, #3b5998 0%, #4899D4 100%); color:#ffffff;">Facebook<i class="fab fa-facebook"></i></a><a class="d-shadow my-3 btn btn-block" target="_blank" href="https://twitter.com/home?status=https://www.acornspreschool.tk" style="background-color:#83ddf2; color:#ffffff;">Twitter<i class="fab fa-twitter"></i></a><a class="d-shadow my-3 btn btn-block" href="mailto:?subject=Please see this website&amp;body=Check out this website https://www.acornspreschool.tk" style="background:linear-gradient(8deg, #EB5F2A 0%, #deac33 100%); color:#ffffff;"> Email<i class="far fa-envelope"></i></a></div>
           <div class="modal-footer">
-            <button class="btn d-shadow mx-2 my-3" type="button" data-dismiss="modal">Close </button>
+            <button class="btn d-shadow mx-2 my-3" type="button" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
