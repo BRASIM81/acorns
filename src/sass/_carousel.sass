@@ -1,12 +1,9 @@
 .carousel
 	.carousel-inner
-		height: 200px
-		@media ( min-width: 789px )
-			height: 300px
-		@media ( min-width: 975px )
-			height: 450px
+		aspect-ratio: 22 / 7
 		.carousel-item
 			img 
+				width: 100%
 				object-fit: cover
 		.head-logo
 			position: absolute
@@ -21,23 +18,13 @@
 			align-items: center
 			background: rgba(0,0,0,0.6)
 			h1
-				font-size: 2rem
+				font-size: 13vw
 				color: #fff
-				letter-spacing: .4rem
-				@media ( min-width: 768px )
-					font-size: 8rem
-					letter-spacing: 0.8rem
-				@media ( min-width: 975px )
-					font-size: 10rem
-					letter-spacing: 1rem
+				letter-spacing: 1vw
+				// font-weight: 600
 			h3 
 				color: #fff
-				font-size: 1rem
-				letter-spacing: .4rem
-				@media (min-width: 768px)
-					font-size: 2rem
-					letter-spacing: 0.8rem
-				@media ( min-width: 975px )
-					font-size: 2.5rem
-					letter-spacing: 1rem
+				font-size: 3.5vw
+				letter-spacing: .9vw
+				margin-top: -.9em
 					
