@@ -44,7 +44,7 @@ function imgmin() {
 }
 
 function pugToHtml() {
-    return gulp.src('./src/**/*.pug')
+    return gulp.src('./src/*.pug')
     .pipe(pug({
         pretty: true
     }))
@@ -60,11 +60,10 @@ function watch() {
     });
     gulp.watch('./src/sass/**/*.sass', css);
     gulp.watch('./src/js/**/*.js', javascript);
-    gulp.watch('./src/img/*.jpg', imgmin);
+    gulp.watch('./src/img/**/*', imgmin);
     gulp.watch('./src/**/*.pug', pugToHtml);
-    gulp.watch(['./dest/*.html', './src/sass/**/*.sass', './src/js/**/*.js', './src/img/*.jpg']).on('change', browsersync.reload);
+    gulp.watch(['./dest/*.html', './src/sass/**/*.sass', './src/js/**/*.js', './src/**/*.jpg']).on('change', browsersync.reload);
 }
-
 
 exports.css = css;
 exports.javascript = javascript;
