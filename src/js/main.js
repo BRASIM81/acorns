@@ -51,22 +51,3 @@ $(document).ready(function(){
    });
 
 });
-
-function myMap() {
-
-   var myCenter = new google.maps.LatLng(51.9980503, -1.9973667);
-
-   var mapProp = {
-       center: myCenter,
-       zoom: 16,
-       mapTypeId: google.maps.MapTypeId.HYBRID
-   };
-
-   var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-
-   var marker = new google.maps.Marker({
-       position: myCenter,
-   });
-
-   marker.setMap(map);
-}
