@@ -1,11 +1,13 @@
 .carousel
 	.carousel-inner
 		aspect-ratio: 22 / 7
+		@media ( max-width: 768px )	
+			aspect-ratio: 20 / 9			
 		.carousel-item
 			img 
 				width: 100%
-				object-fit: cover
-				filter: blur(4px)
+				// object-fit: cover
+				filter: blur(2px)
 		.head-logo
 			position: absolute
 			z-index: 4
@@ -27,4 +29,3 @@
 				font-size: 3.5vw
 				letter-spacing: .9vw
 				margin-top: -.9em
-				
