@@ -9,6 +9,9 @@
   overflow: hidden
   .container
     .bannerBg
+      display: flex
+      flex-direction: column
+      justify-content: center
       border-radius: 8px
       background: linear-gradient(-160deg, #8facce 18%, rgba(255,255,255,0.8))
       &:hover
@@ -16,4 +19,4 @@
           animation-name: tada
           animation-duration: 1s
       @media (max-width: 768px)
-        margin: 15px 0
+        margin: 15px
