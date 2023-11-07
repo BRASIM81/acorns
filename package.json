@@ -26,8 +26,9 @@
     "sass": "^1.35.1"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.4.0",
-    "gh-pages": "^3.2.3"
+    "bootstrap-icons": "^1.11.1",
+    "gh-pages": "^3.2.3",
+    "instal": "^0.0.1-security"
   },
   "repository": {
     "type": "git",
