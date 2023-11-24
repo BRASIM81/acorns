@@ -10,6 +10,16 @@ window.onload = function(){
       }
    }
 };
+$(window).scroll(function(){
+   var wScroll = $(this).scrollTop();
+
+   $('.head-logo>h1').css({
+      'transform' : 'translate(0px, '+wScroll/3+'%)'
+   });
+   $('.head-logo>h3').css({
+      'transform' : 'translate(0px, '+wScroll/2+'%)'
+   });
+});
 $(document).ready(function(){
 
    $("#cookie").on('click', function(e){
