@@ -2,6 +2,7 @@
 	.carousel-inner
 		position: relative
 		aspect-ratio: 22 / 7
+		width: 100%
 		@media ( max-width: 768px )	
 			aspect-ratio: 20 / 9			
 		.carousel-item
@@ -10,6 +11,7 @@
 				object-fit: cover
 				object-position: center center
 				filter: blur(3px)
+				filter: brightness(.4)
 		.head-logo
 			position: absolute
 			z-index: 4
@@ -21,7 +23,6 @@
 			flex-direction: column
 			justify-content: center
 			align-items: center
-			background-color: rgba(0, 0, 0, 0.65)
 			h1
 				font-size: 13vw
 				color: #fff
