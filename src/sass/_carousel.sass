@@ -10,8 +10,6 @@
 				width: 100%
 				object-fit: cover
 				object-position: center center
-				filter: blur(3px)
-				filter: brightness(.4)
 		.head-logo
 			position: absolute
 			z-index: 4
@@ -23,6 +21,8 @@
 			flex-direction: column
 			justify-content: center
 			align-items: center
+			backdrop-filter: blur(3px)
+			background-color: rgba(0, 0, 0, .5)	
 			h1
 				font-size: 13vw
 				color: #fff
