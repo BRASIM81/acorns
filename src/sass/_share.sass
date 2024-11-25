@@ -23,9 +23,21 @@
 	.modal-dialog
 		max-width: 60vw
 		margin: 2rem auto
+		position: relative
 		@media (max-width: 975px)
 			max-width: 80vw
 		transition: all cubic-bezier(.21, -2, .51, 3.4) 300ms
+		&::before
+			content: ''
+			position: absolute
+			top: 50%
+			left: 50%
+			translate: -50% -50%
+			height: 100%
+			width: 100%
+			background: red
+			margin: 5px
+			border-radius: 5px
 		.modal-content
 			background: linear-gradient(-185deg, lighten($forthcol, 20%) 0%, darken($forthcol, 14%) 100%)
 			border: 0
